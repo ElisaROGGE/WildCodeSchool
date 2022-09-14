@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+/* footer {
+  background: 
+} */
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+button{
+  background-color: #f76c6c;
+  border: 2px solid #f76c6c;
+  border-radius: 0 50px 50px 0;
+  padding: 10px 15px;
+  color: #fff;
+  margin: -5px;
+  cursor: pointer;
+}
+input{
+  border-radius: 50px 0 0 50px;
+  padding: 10px 15px;
+  border: 2px solid #f76c6c;
+
+}
+.error{
+  display: none;
+  background-color: orange;
+  color: #fff;
+  margin: 10px auto;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+.member-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(300px), 1fr));
+  gap: 20px;
+}
+.member-item {
+  padding: 0.25em 0;
+  background: #fff;
+  box-shadow: 6px 10px 23px -4px rgb(0 0 0 / 42%);
+  -webkit-box-shadow: 2px 2px 8px 0px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 6px 10px 23px -4px rgba(0,0,0,0.42);
+  padding: 20px;
+  border-radius: 8px;
+}
+.member-item img{
+  height: 15px;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
